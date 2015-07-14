@@ -1,0 +1,309 @@
+/* libraries */
+* {
+  margin: 0;
+  padding: 0;
+}
+*:focus {
+  outline: none;
+}
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+xmp {
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+b,
+strong {
+  font-weight: bold;
+}
+img {
+  font-size: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+}
+li {
+  display: list-item;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th,
+td,
+caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
+svg {
+  overflow: hidden;
+}
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+.c1 {
+  display: inline;
+  float: left;
+  width: 60px;
+  margin: 0 10px;
+}
+.c2 {
+  display: inline;
+  float: left;
+  width: 140px;
+  margin: 0 10px;
+}
+.c3 {
+  display: inline;
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+}
+.c4 {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+.c5 {
+  display: inline;
+  float: left;
+  width: 380px;
+  margin: 0 10px;
+}
+.c6 {
+  display: inline;
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+}
+.c7 {
+  display: inline;
+  float: left;
+  width: 540px;
+  margin: 0 10px;
+}
+.c8 {
+  display: inline;
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+}
+.c9 {
+  display: inline;
+  float: left;
+  width: 700px;
+  margin: 0 10px;
+}
+.c10 {
+  display: inline;
+  float: left;
+  width: 780px;
+  margin: 0 10px;
+}
+.c11 {
+  display: inline;
+  float: left;
+  width: 860px;
+  margin: 0 10px;
+}
+.c12 {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+}
+.c13 {
+  display: inline;
+  float: left;
+  width: 1020px;
+  margin: 0 10px;
+}
+.c14 {
+  display: inline;
+  float: left;
+  width: 1100px;
+  margin: 0 10px;
+}
+.p1 {
+  margin-left: 90px;
+}
+.p2 {
+  margin-left: 170px;
+}
+.p3 {
+  margin-left: 250px;
+}
+.p4 {
+  margin-left: 330px;
+}
+.p5 {
+  margin-left: 410px;
+}
+.p6 {
+  margin-left: 490px;
+}
+.p7 {
+  margin-left: 570px;
+}
+.p8 {
+  margin-left: 650px;
+}
+.p9 {
+  margin-left: 730px;
+}
+.p10 {
+  margin-left: 810px;
+}
+.p11 {
+  margin-left: 890px;
+}
+.p12 {
+  margin-left: 970px;
+}
+.p13 {
+  margin-left: 1050px;
+}
+.p14 {
+  margin-left: 1130px;
+}
+@media only screen and (min-width: 481px) and (max-width: 959px), only screen and (max-width: 480px) {
+  .notablet {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .nomobile {
+    display: none;
+  }
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  *zoom: 1;
+}
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.t {
+  outline: 1px solid #eee;
+}
